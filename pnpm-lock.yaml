@@ -1,0 +1,49 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^14.14.37
+  fp-ts: '=2.10.0'
+  io-ts: '=2.2.0'
+  tslib: '=2.0.0'
+  typescript: ^4
+  zod: '=3.2.0'
+
+devDependencies:
+  '@types/node': 14.17.4
+  fp-ts: 2.10.0
+  io-ts: 2.2.0_fp-ts@2.10.0
+  tslib: 2.0.0
+  typescript: 4.3.4
+  zod: 3.2.0
+
+packages:
+
+  /@types/node/14.17.4:
+    resolution: {integrity: sha512-8kQ3+wKGRNN0ghtEn7EGps/B8CzuBz1nXZEIGGLP2GnwbqYn4dbTs7k+VKLTq1HvZLRCIDtN3Snx1Ege8B7L5A==}
+    dev: true
+
+  /fp-ts/2.10.0:
+    resolution: {integrity: sha512-FC2VYweD6QJ5qIKq2wGXRuTtMxIRrXqLlIhRDnxVisbmjEEENHPyf6vrQ9Tdj5Pha1o/SbdYBrfANpvaUxW0dg==}
+    dev: true
+
+  /io-ts/2.2.0_fp-ts@2.10.0:
+    resolution: {integrity: sha512-BIZkC9IJ1ix8v3ttSWb5CWVzbEbMkGwjl0dMBGCXVT921/4f/9wAngsqA8VLXFe5JjLJ3INxBufz3BaQVf2zKw==}
+    peerDependencies:
+      fp-ts: ^2.0.0
+    dependencies:
+      fp-ts: 2.10.0
+    dev: true
+
+  /tslib/2.0.0:
+    resolution: {integrity: sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==}
+    dev: true
+
+  /typescript/4.3.4:
+    resolution: {integrity: sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /zod/3.2.0:
+    resolution: {integrity: sha512-yvcO3FZ8URR+LliMGqaW7tlVOOTzmup3vzKEe9Ds7twyJtdhvYa7dIYr0FbD1wVfWC1OuS83vZfHtCKslPuRhA==}
+    dev: true

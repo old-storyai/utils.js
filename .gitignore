@@ -1,0 +1,5 @@
+/dist
+/index.*
+*.log
+*.tsbuildinfo
+node_modules
